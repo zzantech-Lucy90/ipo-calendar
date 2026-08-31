@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>공모주 청약 캘린더</title>
+<meta name="description" content="공모주 청약일정·수요예측 결과·기관경쟁률·의무보유확약비율·공모자금 사용목적을 한 곳에서. KIND·DART 공시 기반.">
+<meta property="og:title" content="공모주 청약 캘린더">
+<meta property="og:description" content="청약일정부터 의무보유확약까지, 공모주 판단에 필요한 숫자만 모았습니다.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css?v=1">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>공모주 청약 캘린더</h1>
+    <p class="sub">청약일정 · 수요예측 결과 · 기관경쟁률 · 의무보유확약 · 공모자금 사용목적</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="wrap toolbar">
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <input id="q" type="search" placeholder="회사명 · 주관사 · 업종 검색" autocomplete="off" aria-label="검색">
+</nav>
+
+<main class="wrap">
+  <div id="list" class="list" aria-live="polite"></div>
+  <p id="empty" class="empty" hidden>조건에 맞는 공모주가 없습니다.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>출처: <a href="https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain" target="_blank" rel="noopener">KIND(한국거래소)</a>
+     · <a href="https://opendart.fss.or.kr/" target="_blank" rel="noopener">DART(금융감독원)</a>
+     · <a href="http://www.38.co.kr/html/fund/" target="_blank" rel="noopener">38커뮤니케이션</a></p>
+  <p class="warn">공시 원문을 자동 수집한 자료로, 정정신고·입력오류로 실제와 다를 수 있습니다.
+     투자 판단과 책임은 투자자 본인에게 있으며, 이 페이지는 투자 권유가 아닙니다.</p>
+  <p class="gen">마지막 갱신 <span id="gen">—</span></p>
+</footer>
+
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <article class="sheet-body" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <button class="sheet-x" data-close aria-label="닫기">✕</button>
+    <div id="sheet-content"></div>
+  </article>
+</div>
+
+<script src="assets/app.js?v=1"></script>
+</body>
+</html>

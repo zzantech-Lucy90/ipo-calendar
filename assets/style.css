@@ -1,0 +1,120 @@
+:root{
+  --bg:#f6f7f9; --card:#fff; --line:#e5e7eb; --ink:#16181d; --dim:#6b7280;
+  --accent:#1f5fd4; --accent-soft:#eaf0fd;
+  --live:#c2410c; --live-soft:#fff1e7;
+  --soon:#0f766e; --soon-soft:#e6f5f2;
+  --done:#6b7280; --done-soft:#f1f2f4;
+  --bar:#c7d5f2; --bar-strong:#1f5fd4;
+  --radius:14px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0e1014; --card:#171a20; --line:#282d36; --ink:#e8eaee; --dim:#9aa2ae;
+    --accent:#6f9bf5; --accent-soft:#1a2439;
+    --live:#fb923c; --live-soft:#3a2211;
+    --soon:#4fd0bd; --soon-soft:#10312d;
+    --done:#8b93a1; --done-soft:#22262e;
+    --bar:#2c3a56; --bar-strong:#6f9bf5;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  line-height:1.55; font-size:15px;
+}
+a{color:var(--accent)}
+.wrap{max-width:860px; margin:0 auto; padding:0 16px}
+
+/* ---------- 헤더 ---------- */
+.top{background:var(--card); border-bottom:1px solid var(--line); padding:22px 0 18px}
+.top h1{margin:0; font-size:21px; letter-spacing:-.02em}
+.sub{margin:4px 0 0; color:var(--dim); font-size:13px}
+.stats{display:flex; gap:8px; margin-top:14px; flex-wrap:wrap}
+.stat{background:var(--bg); border:1px solid var(--line); border-radius:10px; padding:7px 11px; font-size:13px}
+.stat b{font-size:16px; margin-left:5px}
+.stat.live b{color:var(--live)} .stat.soon b{color:var(--soon)}
+
+/* ---------- 툴바 ---------- */
+.toolbar{display:flex; gap:10px; align-items:center; padding-top:14px; padding-bottom:12px; flex-wrap:wrap}
+.tabs{display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; flex:1 1 auto}
+.tabs::-webkit-scrollbar{display:none}
+.tab{
+  flex:0 0 auto; border:1px solid var(--line); background:var(--card); color:var(--dim);
+  border-radius:999px; padding:6px 13px; font-size:13px; cursor:pointer; white-space:nowrap;
+  font-family:inherit;
+}
+.tab[aria-selected="true"]{background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700}
+#q{
+  flex:1 1 200px; min-width:150px; border:1px solid var(--line); background:var(--card); color:var(--ink);
+  border-radius:10px; padding:8px 12px; font-size:14px; font-family:inherit;
+}
+
+/* ---------- 카드 ---------- */
+.list{display:flex; flex-direction:column; gap:10px; padding-bottom:8px}
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:14px; cursor:pointer; transition:border-color .12s, transform .12s;
+  text-align:left; width:100%; font-family:inherit; color:inherit; font-size:inherit;
+}
+.card:hover{border-color:var(--accent)}
+.card:active{transform:scale(.995)}
+.card-h{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap}
+.name{font-size:17px; font-weight:700; letter-spacing:-.02em}
+.badge{font-size:11px; padding:2px 7px; border-radius:6px; font-weight:700; white-space:nowrap}
+.b-live{background:var(--live-soft); color:var(--live)}
+.b-soon{background:var(--soon-soft); color:var(--soon)}
+.b-done{background:var(--done-soft); color:var(--done)}
+.b-mkt{background:var(--accent-soft); color:var(--accent)}
+.dday{margin-left:auto; font-size:13px; font-weight:700; color:var(--live)}
+.meta{margin-top:7px; color:var(--dim); font-size:13px}
+.figs{display:flex; gap:14px; margin-top:10px; flex-wrap:wrap}
+.fig{font-size:13px}
+.fig span{color:var(--dim); margin-right:5px}
+.fig b{font-variant-numeric:tabular-nums}
+.hot{color:var(--live)}
+
+/* ---------- 상세 시트 ---------- */
+.sheet{position:fixed; inset:0; z-index:50; display:flex; align-items:flex-end; justify-content:center}
+.sheet[hidden]{display:none}
+.sheet-bg{position:absolute; inset:0; background:rgba(0,0,0,.45)}
+.sheet-body{
+  position:relative; background:var(--card); width:100%; max-width:640px;
+  max-height:88vh; overflow-y:auto; border-radius:18px 18px 0 0; padding:22px 18px 40px;
+  animation:up .18s ease-out;
+}
+@keyframes up{from{transform:translateY(18px); opacity:.6}}
+@media (min-width:640px){
+  .sheet{align-items:center}
+  .sheet-body{border-radius:18px; max-height:84vh}
+}
+.sheet-x{
+  position:absolute; top:12px; right:12px; border:0; background:var(--bg); color:var(--dim);
+  width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:14px
+}
+.sheet h2{margin:0 0 2px; font-size:20px; letter-spacing:-.02em; padding-right:36px}
+.sheet h3{margin:22px 0 8px; font-size:14px; color:var(--dim); font-weight:700}
+.kv{display:grid; grid-template-columns:auto 1fr; gap:6px 14px; font-size:14px}
+.kv dt{color:var(--dim)}
+.kv dd{margin:0; font-variant-numeric:tabular-nums}
+.tl{list-style:none; margin:0; padding:0; font-size:14px}
+.tl li{display:flex; gap:10px; padding:5px 0; border-bottom:1px dashed var(--line)}
+.tl li:last-child{border-bottom:0}
+.tl .t{color:var(--dim); min-width:78px}
+.tl li.now{font-weight:700; color:var(--live)}
+table.dist{width:100%; border-collapse:collapse; font-size:13px; font-variant-numeric:tabular-nums}
+table.dist th,table.dist td{padding:6px 4px; text-align:right; border-bottom:1px solid var(--line)}
+table.dist th:first-child,table.dist td:first-child{text-align:left}
+table.dist th{color:var(--dim); font-weight:500}
+.barwrap{position:relative; background:var(--bar); border-radius:4px; height:6px; margin-top:4px}
+.barwrap i{position:absolute; inset:0 auto 0 0; background:var(--bar-strong); border-radius:4px; display:block}
+.note{font-size:12.5px; color:var(--dim); margin:8px 0 0}
+.src{display:flex; gap:8px; flex-wrap:wrap; margin-top:8px}
+.src a{font-size:12.5px; border:1px solid var(--line); border-radius:8px; padding:5px 10px; text-decoration:none}
+
+/* ---------- 기타 ---------- */
+.empty{text-align:center; color:var(--dim); padding:48px 0}
+.foot{margin-top:28px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:12.5px; padding-bottom:36px}
+.foot p{margin:5px 0}
+.warn{line-height:1.5}
