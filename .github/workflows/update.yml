@@ -33,6 +33,16 @@ jobs:
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
         run: python -m collector.run --pages 3
 
+      - name: 카카오톡 알림 (아침 실행에만)
+        # 저녁 실행까지 보내면 하루 두 번이라 시끄럽다. 수동 실행 때는 항상 보낸다.
+        if: github.event.schedule == '30 22 * * *' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true      # 알림이 실패해도 데이터 갱신은 막지 않는다
+        env:
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          SITE_URL: https://zzantech-lucy90.github.io/ipo-calendar/
+        run: python -m notify.kakao
+
       - name: 변경분 커밋
         run: |
           if git diff --quiet -- data/ipos.json; then
