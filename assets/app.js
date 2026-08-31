@@ -26,6 +26,41 @@ const bandText = (r) => {
     : `${r.band_low.toLocaleString('ko-KR')}~${r.band_high.toLocaleString('ko-KR')}원`;
 };
 
+/* ------------------------------------------------------------ 날짜 기준 */
+// 한국 증시 일정이므로 보는 사람의 시간대가 아니라 서울 기준 날짜로 판단한다.
+const seoulToday = () => new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
+}).format(new Date());
+
+const daysUntil = (from, to) => {
+  const [ay, am, ad] = from.split('-').map(Number);
+  const [by, bm, bd] = to.split('-').map(Number);
+  return Math.round((Date.UTC(by, bm - 1, bd) - Date.UTC(ay, am - 1, ad)) / 86400000);
+};
+
+// 수집 시점에 박아둔 status/dday 대신, 여는 순간을 기준으로 다시 계산한다.
+// (collector/merge.py 의 status_of 와 같은 규칙)
+function statusOf(r, today) {
+  const { listing_date: L, bookbuilding_from: bF, bookbuilding_to: bT,
+          subscription_from: sF, subscription_to: sT } = r;
+  if (L && today >= L) return '상장완료';
+  if (sF && sT && sF <= today && today <= sT) return '청약중';
+  if (bF && bT && bF <= today && today <= bT) return '수요예측중';
+  if (sT && today > sT) return '상장대기';
+  if (sF && today < sF) return '청약예정';
+  if (bF && today < bF) return '수요예측예정';
+  return '일정미정';
+}
+
+function ddayOf(r, today) {
+  for (const f of ['subscription_from', 'subscription_to', 'listing_date']) {
+    if (r[f] && r[f] >= today) return daysUntil(today, r[f]);
+  }
+  return null;
+}
+
+const TODAY = seoulToday();
+
 /* ------------------------------------------------------------ 상태 */
 const TABS = [
   { id: '청약중', label: '청약중', match: (r) => r.status === '청약중' },
@@ -133,7 +168,7 @@ function section(title, node) {
 }
 
 function timeline(r) {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = TODAY;
   const rows = [
     ['증권신고서', r.filed_date, r.filed_date],
     ['수요예측', r.bookbuilding_from, r.bookbuilding_to],
@@ -313,7 +348,20 @@ async function boot() {
     return;
   }
   DATA = payload.items || [];
-  $('#gen').textContent = payload.generated_at || '—';
+  for (const r of DATA) {
+    r.status = statusOf(r, TODAY);
+    r.dday = ddayOf(r, TODAY);
+  }
+
+  const gen = payload.generated_at;
+  $('#gen').textContent = gen || '—';
+  if (gen) {
+    const age = daysUntil(gen, TODAY);
+    if (age >= 2) {
+      $('#gen').textContent = `${gen} (${age}일 전 — 자동 갱신이 멈췄는지 확인하세요)`;
+      $('#gen').classList.add('stale');
+    }
+  }
 
   const n = (id) => DATA.filter(TABS.find((t) => t.id === id).match).length;
   const stats = $('#stats');

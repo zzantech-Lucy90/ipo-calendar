@@ -118,3 +118,5 @@ table.dist th{color:var(--dim); font-weight:500}
 .foot{margin-top:28px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:12.5px; padding-bottom:36px}
 .foot p{margin:5px 0}
 .warn{line-height:1.5}
+
+.gen .stale,.stale{color:var(--live)}
