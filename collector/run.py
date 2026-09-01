@@ -8,10 +8,10 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import date
 from pathlib import Path
 
 from . import dart, ipo38, kind
+from .util import today as seoul_today
 from .merge import merge
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,7 +35,7 @@ def main() -> None:
     print(f"      {len(f)}건", flush=True)
 
     print("[3/4] 병합 …", flush=True)
-    records = merge(k, f, today=date.today())
+    records = merge(k, f, today=seoul_today())
     print(f"      {len(records)}건", flush=True)
 
     print("[4/4] DART 보강 …", flush=True)
@@ -49,7 +49,7 @@ def main() -> None:
         print(f"      사용목적 {n}건 확보", flush=True)
 
     payload = {
-        "generated_at": date.today().isoformat(),
+        "generated_at": seoul_today().isoformat(),
         "count": len(records),
         "sources": {
             "KIND": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain",

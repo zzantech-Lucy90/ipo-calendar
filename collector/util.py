@@ -5,6 +5,7 @@ import re
 import time
 import unicodedata
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -137,5 +138,13 @@ def parse_range(text: str | None) -> tuple[str | None, str | None]:
     return start, end or start
 
 
-def today() -> str:
-    return datetime.now().date().isoformat()
+KST = ZoneInfo("Asia/Seoul")
+
+
+def today() -> date:
+    """한국 증시 일정이므로 항상 서울 기준 날짜를 쓴다.
+
+    GitHub Actions 러너는 UTC라 date.today() 를 그대로 쓰면 07:30 KST 실행이
+    전날 날짜로 기록된다.
+    """
+    return datetime.now(KST).date()

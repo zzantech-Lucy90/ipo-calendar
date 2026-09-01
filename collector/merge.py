@@ -7,6 +7,8 @@ from __future__ import annotations
 
 from datetime import date, datetime
 
+from .util import today as seoul_today
+
 # KIND를 우선하는 필드 (공식 공시 기반)
 KIND_PRIORITY = [
     "market", "filed_date", "bookbuilding_from", "bookbuilding_to",
@@ -71,7 +73,7 @@ def _dday(rec: dict, today: date) -> int | None:
 
 def merge(kind: dict[str, dict], ipo38: dict[str, dict],
           today: date | None = None) -> list[dict]:
-    today = today or date.today()
+    today = today or seoul_today()
     keys = set(kind) | set(ipo38)
 
     out: list[dict] = []
