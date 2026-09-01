@@ -54,8 +54,15 @@ python3 -m http.server 8765
 
 ## 자동 갱신
 
-`.github/workflows/update.yml` 이 매일 **KST 07:30, 18:30** 두 번 돌면서 `data/ipos.json`
-을 갱신하고, 변경이 있을 때만 커밋합니다. 저장소 Actions 탭에서 수동 실행도 됩니다.
+`.github/workflows/update.yml` 이 매일 **KST 07:30** 한 번 돌면서 `data/ipos.json` 을
+갱신하고, 변경이 있을 때만 커밋합니다. 저장소 Actions 탭에서 수동 실행도 됩니다.
+
+전날 청약 마감과 수요예측 결과가 모두 확정된 뒤에 돌기 때문에, 하루치 변화를 한 번에
+담습니다. 다만 **당일 오후에 마감되는 청약의 경쟁률은 다음 날 아침에 반영**됩니다.
+더 빨리 보고 싶으면 Actions 탭에서 `Run workflow` 로 즉시 돌릴 수 있습니다.
+
+날짜 기준은 항상 **서울(Asia/Seoul)** 입니다. GitHub 러너는 UTC로 도는데, KST 07:30 은
+UTC로 전날 22:30 이라 그냥 두면 `generated_at` 이 하루씩 밀립니다.
 
 ## 공모자금 사용목적 켜기
 
