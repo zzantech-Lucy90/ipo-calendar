@@ -111,6 +111,14 @@ def build(today: date | None = None, path: Path = DATA) -> tuple[str, bool]:
             days = (_d(r["subscription_from"]) - today).days
             lines.append(f"· {r['name']} D-{days} {_price(r)}")
 
+    # 소개글 써야 하는 날은 알림에서 바로 알려준다 (notify/dday.py 와 같은 기준)
+    from .dday import find as find_dday
+    due = find_dday(days=4, path=path, today=today)
+    if due:
+        lines.append("\n✍️ D-4 소개글")
+        for r in due[:2]:
+            lines.append(f"· {r['name']}")
+
     if booking and not live and not soon:
         lines.append(f"\n📊 수요예측중 {len(booking)}건")
         for r in booking[:3]:
@@ -121,7 +129,7 @@ def build(today: date | None = None, path: Path = DATA) -> tuple[str, bool]:
         lines.pop()
     text = "\n".join(lines).rstrip()
 
-    worth_sending = bool(live or soon)
+    worth_sending = bool(live or soon or due)
     return text, worth_sending
 
 
