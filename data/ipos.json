@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10",
- "count": 189,
+ "generated_at": "2026-11-11",
+ "count": 190,
  "sources": {
   "KIND": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain",
   "38커뮤니케이션": "http://www.38.co.kr/html/fund/",
@@ -49,7 +49,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2356"
    },
-   "dday": 34,
+   "dday": 33,
    "has_official": false
   },
   {
@@ -94,7 +94,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2355"
    },
-   "dday": 34,
+   "dday": 33,
    "has_official": false
   },
   {
@@ -142,7 +142,7 @@
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2348",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 30,
+   "dday": 29,
    "has_official": true
   },
   {
@@ -187,7 +187,53 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2353"
    },
-   "dday": 29,
+   "dday": 28,
+   "has_official": false
+  },
+  {
+   "name": "마더스제약",
+   "code": "363170",
+   "market": "코스닥",
+   "status": "청약예정",
+   "industry": "완제 의약품 제조업",
+   "ceo": "김좌진",
+   "company_class": "중소일반",
+   "address": "서울 동작구 보라매로5길 51, 501호 (신대방동,롯데타워)",
+   "homepage": "www.mtspharm.co.kr",
+   "revenue": 228830000000,
+   "net_income": 11204000000,
+   "capital": 6434000000,
+   "par_value": 500,
+   "shares_offered": 2400000,
+   "offer_structure": "신주모집 : 1,900,000 주 (79.17%) \n\t/   구주매출 : 500,000 주 (20.83%)",
+   "band_low": 11000,
+   "band_high": 14500,
+   "offer_amount": 26400000000,
+   "underwriters": [
+    "KB증권",
+    "NH투자증권"
+   ],
+   "bookbuilding_from": "2026-11-27",
+   "bookbuilding_to": "2026-12-03",
+   "subscription_from": "2026-12-08",
+   "subscription_to": "2026-12-09",
+   "payment_date": "2026-12-11",
+   "refund_date": "2026-12-11",
+   "allocation": {
+    "institutional": {
+     "shares": 1680000,
+     "pct": null
+    },
+    "retail": {
+     "shares": 600000,
+     "pct": null
+    }
+   },
+   "key": "마더스제약",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2359"
+   },
+   "dday": 27,
    "has_official": false
   },
   {
@@ -232,7 +278,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2351"
    },
-   "dday": 27,
+   "dday": 26,
    "has_official": false
   },
   {
@@ -274,7 +320,52 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2354"
    },
-   "dday": 22,
+   "dday": 21,
+   "has_official": false
+  },
+  {
+   "name": "다비오",
+   "code": "0012G0",
+   "market": "코스닥",
+   "status": "청약예정",
+   "industry": "응용 소프트웨어 개발 및 공급업",
+   "ceo": "박주흠",
+   "company_class": "중소일반",
+   "address": "서울특별시 마포구 마포대로 144 (공덕동, 마포T타운) 8층",
+   "homepage": "www.dabeeo.com",
+   "revenue": 9257000000,
+   "net_income": -3490000000,
+   "capital": 751000000,
+   "par_value": 100,
+   "shares_offered": 1000000,
+   "offer_structure": "신주모집 : 1,000,000 주 (100%)",
+   "band_low": 12300,
+   "band_high": 16600,
+   "offer_amount": 12300000000,
+   "underwriters": [
+    "대신증권"
+   ],
+   "bookbuilding_from": "2026-11-23",
+   "bookbuilding_to": "2026-11-27",
+   "subscription_from": "2026-12-01",
+   "subscription_to": "2026-12-02",
+   "payment_date": "2026-12-04",
+   "refund_date": "2026-12-04",
+   "allocation": {
+    "institutional": {
+     "shares": 700000,
+     "pct": null
+    },
+    "retail": {
+     "shares": 250000,
+     "pct": null
+    }
+   },
+   "key": "다비오",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2358"
+   },
+   "dday": 20,
    "has_official": false
   },
   {
@@ -323,52 +414,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2343"
    },
-   "dday": 21,
-   "has_official": false
-  },
-  {
-   "name": "다비오",
-   "code": "0012G0",
-   "market": "코스닥",
-   "status": "청약예정",
-   "industry": "응용 소프트웨어 개발 및 공급업",
-   "ceo": "박주흠",
-   "company_class": "중소일반",
-   "address": "서울특별시 마포구 마포대로 144 (공덕동, 마포T타운) 8층",
-   "homepage": "www.dabeeo.com",
-   "revenue": 9257000000,
-   "net_income": -3490000000,
-   "capital": 751000000,
-   "par_value": 100,
-   "shares_offered": 1000000,
-   "offer_structure": "신주모집 : 1,000,000 주 (100%)",
-   "band_low": 12300,
-   "band_high": 16600,
-   "offer_amount": 12300000000,
-   "underwriters": [
-    "대신증권"
-   ],
-   "bookbuilding_from": "2026-11-23",
-   "bookbuilding_to": "2026-11-27",
-   "subscription_from": "2026-12-01",
-   "subscription_to": "2026-12-02",
-   "payment_date": "2026-12-04",
-   "refund_date": "2026-12-04",
-   "allocation": {
-    "institutional": {
-     "shares": 700000,
-     "pct": null
-    },
-    "retail": {
-     "shares": 250000,
-     "pct": null
-    }
-   },
-   "key": "다비오",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2358"
-   },
-   "dday": 21,
+   "dday": 20,
    "has_official": false
   },
   {
@@ -417,49 +463,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2350"
    },
-   "dday": 17,
-   "has_official": false
-  },
-  {
-   "name": "신영스팩12호",
-   "code": "0231Y0",
-   "market": "코스닥",
-   "status": "청약예정",
-   "industry": "기타 금융 지원 서비스업",
-   "ceo": "제호석",
-   "company_class": "중소일반",
-   "address": "서울특별시 영등포구 국제금융로8길 16 (여의도동) 5층",
-   "capital": 10000000,
-   "par_value": 100,
-   "shares_offered": 6250000,
-   "offer_structure": "신주모집 : 6,250,000 주 (100%)",
-   "band_low": 2000,
-   "band_high": 2000,
-   "offer_amount": 12500000000,
-   "underwriters": [
-    "신영증권"
-   ],
-   "bookbuilding_from": "2026-11-19",
-   "bookbuilding_to": "2026-11-20",
-   "subscription_from": "2026-11-24",
-   "subscription_to": "2026-11-25",
-   "payment_date": "2026-11-27",
-   "refund_date": "2026-11-27",
-   "allocation": {
-    "institutional": {
-     "shares": 4375000,
-     "pct": null
-    },
-    "retail": {
-     "shares": 1562500,
-     "pct": null
-    }
-   },
-   "key": "신영스팩12호",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2357"
-   },
-   "dday": 14,
+   "dday": 16,
    "has_official": false
   },
   {
@@ -503,7 +507,49 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2340"
    },
-   "dday": 14,
+   "dday": 13,
+   "has_official": false
+  },
+  {
+   "name": "신영스팩12호",
+   "code": "0231Y0",
+   "market": "코스닥",
+   "status": "청약예정",
+   "industry": "기타 금융 지원 서비스업",
+   "ceo": "제호석",
+   "company_class": "중소일반",
+   "address": "서울특별시 영등포구 국제금융로8길 16 (여의도동) 5층",
+   "capital": 10000000,
+   "par_value": 100,
+   "shares_offered": 6250000,
+   "offer_structure": "신주모집 : 6,250,000 주 (100%)",
+   "band_low": 2000,
+   "band_high": 2000,
+   "offer_amount": 12500000000,
+   "underwriters": [
+    "신영증권"
+   ],
+   "bookbuilding_from": "2026-11-19",
+   "bookbuilding_to": "2026-11-20",
+   "subscription_from": "2026-11-24",
+   "subscription_to": "2026-11-25",
+   "payment_date": "2026-11-27",
+   "refund_date": "2026-11-27",
+   "allocation": {
+    "institutional": {
+     "shares": 4375000,
+     "pct": null
+    },
+    "retail": {
+     "shares": 1562500,
+     "pct": null
+    }
+   },
+   "key": "신영스팩12호",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2357"
+   },
+   "dday": 13,
    "has_official": false
   },
   {
@@ -552,7 +598,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2341"
    },
-   "dday": 14,
+   "dday": 13,
    "has_official": false
   },
   {
@@ -598,7 +644,53 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2345"
    },
-   "dday": 13,
+   "dday": 12,
+   "has_official": false
+  },
+  {
+   "name": "유캐스트",
+   "code": "0175C0",
+   "market": "코스닥",
+   "status": "수요예측중",
+   "industry": "기타 무선 통신장비 제조업",
+   "ceo": "김재형",
+   "company_class": "중소일반",
+   "address": "경기도 성남시 분당구 황새울로 262 (수내동, 성옥빌딩) 4층",
+   "homepage": "www.eu-cast.com",
+   "revenue": 5934000000,
+   "net_income": -3556000000,
+   "capital": 2532000000,
+   "par_value": 500,
+   "shares_offered": 800000,
+   "offer_structure": "신주모집 : 800,000 주 (100%)",
+   "band_low": 19000,
+   "band_high": 23000,
+   "offer_amount": 15200000000,
+   "underwriters": [
+    "유진투자증권",
+    "신영증권"
+   ],
+   "bookbuilding_from": "2026-11-09",
+   "bookbuilding_to": "2026-11-13",
+   "subscription_from": "2026-11-18",
+   "subscription_to": "2026-11-19",
+   "payment_date": "2026-11-23",
+   "refund_date": "2026-11-23",
+   "allocation": {
+    "institutional": {
+     "shares": 560000,
+     "pct": null
+    },
+    "retail": {
+     "shares": 200000,
+     "pct": null
+    }
+   },
+   "key": "유캐스트",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2352"
+   },
+   "dday": 7,
    "has_official": false
   },
   {
@@ -649,53 +741,56 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2349"
    },
-   "dday": 8,
+   "dday": 7,
    "has_official": false
   },
   {
-   "name": "유캐스트",
-   "code": "0175C0",
+   "name": "씨앤엠",
+   "code": "0206M0",
    "market": "코스닥",
-   "status": "수요예측중",
-   "industry": "기타 무선 통신장비 제조업",
-   "ceo": "김재형",
+   "status": "청약예정",
+   "industry": "전동기 및 발전기 제조업",
+   "ceo": "김형가",
    "company_class": "중소일반",
-   "address": "경기도 성남시 분당구 황새울로 262 (수내동, 성옥빌딩) 4층",
-   "homepage": "www.eu-cast.com",
-   "revenue": 5934000000,
-   "net_income": -3556000000,
-   "capital": 2532000000,
-   "par_value": 500,
-   "shares_offered": 800000,
-   "offer_structure": "신주모집 : 800,000 주 (100%)",
-   "band_low": 19000,
-   "band_high": 23000,
-   "offer_amount": 15200000000,
+   "address": "경상남도 김해시 김해대로2635번길 29 (안동)",
+   "homepage": "www.cnmmotor.com",
+   "revenue": 238489000000,
+   "net_income": 19869000000,
+   "capital": 2650000000,
+   "par_value": 100,
+   "shares_offered": 2950000,
+   "offer_structure": "신주모집 : 2,950,000 주 (100%)",
+   "band_low": 10000,
+   "band_high": 13000,
+   "offer_amount": 29500000000,
    "underwriters": [
-    "유진투자증권",
-    "신영증권"
+    "한국투자증권"
    ],
-   "bookbuilding_from": "2026-11-09",
-   "bookbuilding_to": "2026-11-13",
-   "subscription_from": "2026-11-18",
-   "subscription_to": "2026-11-19",
-   "payment_date": "2026-11-23",
-   "refund_date": "2026-11-23",
+   "bookbuilding_from": "2026-11-03",
+   "bookbuilding_to": "2026-11-09",
+   "subscription_from": "2026-11-12",
+   "subscription_to": "2026-11-13",
+   "payment_date": "2026-11-17",
+   "refund_date": "2026-11-17",
    "allocation": {
+    "employee": {
+     "shares": 153000,
+     "pct": 5.2
+    },
     "institutional": {
-     "shares": 560000,
+     "shares": 1912000,
      "pct": null
     },
     "retail": {
-     "shares": 200000,
+     "shares": 737500,
      "pct": null
     }
    },
-   "key": "유캐스트",
+   "key": "씨앤엠",
    "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2352"
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2346"
    },
-   "dday": 8,
+   "dday": 1,
    "has_official": false
   },
   {
@@ -745,56 +840,7 @@
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2347"
    },
-   "dday": 2,
-   "has_official": false
-  },
-  {
-   "name": "씨앤엠",
-   "code": "0206M0",
-   "market": "코스닥",
-   "status": "청약예정",
-   "industry": "전동기 및 발전기 제조업",
-   "ceo": "김형가",
-   "company_class": "중소일반",
-   "address": "경상남도 김해시 김해대로2635번길 29 (안동)",
-   "homepage": "www.cnmmotor.com",
-   "revenue": 238489000000,
-   "net_income": 19869000000,
-   "capital": 2650000000,
-   "par_value": 100,
-   "shares_offered": 2950000,
-   "offer_structure": "신주모집 : 2,950,000 주 (100%)",
-   "band_low": 10000,
-   "band_high": 13000,
-   "offer_amount": 29500000000,
-   "underwriters": [
-    "한국투자증권"
-   ],
-   "bookbuilding_from": "2026-11-03",
-   "bookbuilding_to": "2026-11-09",
-   "subscription_from": "2026-11-12",
-   "subscription_to": "2026-11-13",
-   "payment_date": "2026-11-17",
-   "refund_date": "2026-11-17",
-   "allocation": {
-    "employee": {
-     "shares": 153000,
-     "pct": 5.2
-    },
-    "institutional": {
-     "shares": 1912000,
-     "pct": null
-    },
-    "retail": {
-     "shares": 737500,
-     "pct": null
-    }
-   },
-   "key": "씨앤엠",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2346"
-   },
-   "dday": 2,
+   "dday": 1,
    "has_official": false
   },
   {
@@ -815,7 +861,8 @@
    "offer_structure": "신주모집 : 2,000,000 주 (100%)",
    "band_low": 9600,
    "band_high": 11700,
-   "offer_amount": 19200000000,
+   "offer_price": 7000,
+   "offer_amount": 14000000000,
    "underwriters": [
     "하나증권"
    ],
@@ -825,21 +872,34 @@
    "subscription_to": "2026-11-13",
    "payment_date": "2026-11-17",
    "refund_date": "2026-11-17",
+   "listing_date": "2026-11-24",
+   "institutional_competition": 187.1,
+   "lockup_ratio": 0.0,
+   "lockup_breakdown": {
+    "m3": 0,
+    "m1": 0,
+    "d15": 0,
+    "total": 0
+   },
    "allocation": {
     "institutional": {
-     "shares": 1400000,
-     "pct": null
+     "shares": 1500000,
+     "pct": 75.0
     },
     "retail": {
      "shares": 500000,
-     "pct": null
+     "pct": 25.0
     }
    },
    "key": "엠비디",
    "sources": {
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2321"
    },
-   "dday": 2,
+   "dday": 1,
+   "band_position": {
+    "label": "하단 미달",
+    "pct": -27.1
+   },
    "has_official": false
   },
   {
@@ -997,7 +1057,7 @@
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2331",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 8,
+   "dday": 7,
    "band_position": {
     "label": "상단 확정",
     "pct": 0.0
@@ -1025,7 +1085,7 @@
    "offer_price": 12000,
    "offer_amount": 26400000000,
    "underwriters": [
-    "한국투자증권"
+    "한국투자증권(주)"
    ],
    "bookbuilding_from": "2026-10-21",
    "bookbuilding_to": "2026-10-27",
@@ -1097,16 +1157,18 @@
      "pct": 25.0
     }
    },
+   "filed_date": "2026-09-29",
    "key": "옵토닉스",
    "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2338"
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2338",
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 7,
+   "dday": 6,
    "band_position": {
     "label": "상단 확정",
     "pct": 0.0
    },
-   "has_official": false
+   "has_official": true
   },
   {
    "name": "영광와이케이엠씨",
@@ -1201,7 +1263,7 @@
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2342",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 6,
+   "dday": 5,
    "band_position": {
     "label": "상단 확정",
     "pct": 0.0
@@ -1263,7 +1325,7 @@
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2336",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 2,
+   "dday": 1,
    "band_position": {
     "label": "하단 미달",
     "pct": -23.8
@@ -1274,7 +1336,6 @@
    "name": "바로팜",
    "code": "952366",
    "market": "코스닥",
-   "status": "상장대기",
    "industry": "전자상거래 소매 중개업",
    "ceo": "김슬기",
    "company_class": "중소일반",
@@ -1282,7 +1343,7 @@
    "homepage": "baropharm.com",
    "revenue": 96724000000,
    "net_income": -9679000000,
-   "capital": 5057000000,
+   "capital": 5982000000,
    "par_value": 500,
    "shares_offered": 1780000,
    "offer_structure": "신주모집 : 1,780,000 주 (100%)",
@@ -1324,7 +1385,8 @@
     "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2325",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
-   "dday": 1,
+   "status": "상장완료",
+   "dday": 0,
    "band_position": {
     "label": "하단 확정",
     "pct": 0.0
@@ -1426,7 +1488,6 @@
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
    "status": "상장완료",
-   "dday": 0,
    "band_position": {
     "label": "상단 확정",
     "pct": 0.0
@@ -1582,73 +1643,6 @@
    "has_official": true
   },
   {
-   "name": "래블업",
-   "code": "0147B0",
-   "market": "코스닥",
-   "industry": "시스템 소프트웨어 개발 및 공급업",
-   "ceo": "신정규",
-   "company_class": "중소일반",
-   "address": "서울특별시 강남구 선릉로 577 (역삼동, 조선내화빌딩) 8층",
-   "homepage": "www.lablup.com/",
-   "revenue": 6718000000,
-   "net_income": -1521000000,
-   "capital": 7282000000,
-   "par_value": 500,
-   "shares_offered": 2180000,
-   "offer_structure": "신주모집 : 2,180,000 주 (100%)",
-   "band_low": 19000,
-   "band_high": 22000,
-   "offer_price": 19000,
-   "offer_amount": 41420000000,
-   "underwriters": [
-    "엔에이치투자증권(주)"
-   ],
-   "bookbuilding_from": "2026-10-13",
-   "bookbuilding_to": "2026-10-19",
-   "subscription_from": "2026-10-22",
-   "subscription_to": "2026-10-23",
-   "payment_date": "2026-10-27",
-   "refund_date": "2026-10-27",
-   "listing_date": "2026-11-03",
-   "subscription_competition": 3.55,
-   "proportional_competition": 7.0,
-   "institutional_competition": 284.53,
-   "lockup_ratio": 2.09,
-   "lockup_breakdown": {
-    "m6": 3472000,
-    "m3": 1473000,
-    "m1": 0,
-    "d15": 4383000,
-    "total": 9328000
-   },
-   "allocation": {
-    "employee": {
-     "shares": 65400,
-     "pct": 3.0
-    },
-    "institutional": {
-     "shares": 1460600,
-     "pct": null
-    },
-    "retail": {
-     "shares": 545000,
-     "pct": null
-    }
-   },
-   "filed_date": "2026-08-25",
-   "key": "래블업",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2335",
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "하단 확정",
-    "pct": 0.0
-   },
-   "has_official": true
-  },
-  {
    "name": "이에스티",
    "code": "495910",
    "market": "코스닥",
@@ -1750,6 +1744,73 @@
    "has_official": true
   },
   {
+   "name": "래블업",
+   "code": "0147B0",
+   "market": "코스닥",
+   "industry": "시스템 소프트웨어 개발 및 공급업",
+   "ceo": "신정규",
+   "company_class": "중소일반",
+   "address": "서울특별시 강남구 선릉로 577 (역삼동, 조선내화빌딩) 8층",
+   "homepage": "www.lablup.com/",
+   "revenue": 6718000000,
+   "net_income": -1521000000,
+   "capital": 7282000000,
+   "par_value": 500,
+   "shares_offered": 2180000,
+   "offer_structure": "신주모집 : 2,180,000 주 (100%)",
+   "band_low": 19000,
+   "band_high": 22000,
+   "offer_price": 19000,
+   "offer_amount": 41420000000,
+   "underwriters": [
+    "엔에이치투자증권(주)"
+   ],
+   "bookbuilding_from": "2026-10-13",
+   "bookbuilding_to": "2026-10-19",
+   "subscription_from": "2026-10-22",
+   "subscription_to": "2026-10-23",
+   "payment_date": "2026-10-27",
+   "refund_date": "2026-10-27",
+   "listing_date": "2026-11-03",
+   "subscription_competition": 3.55,
+   "proportional_competition": 7.0,
+   "institutional_competition": 284.53,
+   "lockup_ratio": 2.09,
+   "lockup_breakdown": {
+    "m6": 3472000,
+    "m3": 1473000,
+    "m1": 0,
+    "d15": 4383000,
+    "total": 9328000
+   },
+   "allocation": {
+    "employee": {
+     "shares": 65400,
+     "pct": 3.0
+    },
+    "institutional": {
+     "shares": 1460600,
+     "pct": null
+    },
+    "retail": {
+     "shares": 545000,
+     "pct": null
+    }
+   },
+   "filed_date": "2026-08-25",
+   "key": "래블업",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2335",
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "하단 확정",
+    "pct": 0.0
+   },
+   "has_official": true
+  },
+  {
    "name": "인텔리빅스",
    "code": "420610",
    "market": "코스닥",
@@ -1811,57 +1872,6 @@
     "pct": 0.0
    },
    "has_official": true
-  },
-  {
-   "name": "한화플러스스팩6호",
-   "code": "0127E0",
-   "market": "코스닥",
-   "industry": "그 외 기타 금융 지원 서비스업",
-   "ceo": "김동완",
-   "company_class": "중소일반",
-   "address": "서울특별시 영등포구 여의대로 56 (여의도동)",
-   "capital": 641000000,
-   "par_value": 100,
-   "shares_offered": 6000000,
-   "offer_structure": "신주모집 : 6,000,000 주 (100%)",
-   "band_low": 2000,
-   "band_high": 2000,
-   "offer_price": 2000,
-   "offer_amount": 12000000000,
-   "underwriters": [
-    "한화투자증권"
-   ],
-   "bookbuilding_from": "2026-10-14",
-   "bookbuilding_to": "2026-10-15",
-   "subscription_from": "2026-10-20",
-   "subscription_to": "2026-10-21",
-   "payment_date": "2026-10-23",
-   "refund_date": "2026-10-23",
-   "listing_date": "2026-10-30",
-   "subscription_competition": 185.75,
-   "proportional_competition": 372.0,
-   "institutional_competition": 1256.48,
-   "lockup_ratio": 0.0,
-   "allocation": {
-    "institutional": {
-     "shares": 4500000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 1500000,
-     "pct": 25.0
-    }
-   },
-   "key": "한화플러스스팩6호",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2330"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": false
   },
   {
    "name": "티앤이코리아",
@@ -1950,28 +1960,6 @@
     "label": "상단 확정",
     "pct": 0.0
    },
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
-   "filed_date": "2026-09-17",
-   "bookbuilding_from": "2026-10-14",
-   "bookbuilding_to": "2026-10-15",
-   "subscription_from": "2026-10-20",
-   "subscription_to": "2026-10-21",
-   "payment_date": "2026-10-23",
-   "listing_date": "2026-10-30",
-   "offer_price": 2000,
-   "offer_amount": 12000000000,
-   "underwriters": [
-    "한화투자증권(주)"
-   ],
-   "name": "한화플러스제6호스팩",
-   "key": "한화플러스제6호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
    "has_official": true
   },
   {
@@ -2076,6 +2064,101 @@
    "has_official": true
   },
   {
+   "market": "코스닥",
+   "filed_date": "2026-09-17",
+   "bookbuilding_from": "2026-10-14",
+   "bookbuilding_to": "2026-10-15",
+   "subscription_from": "2026-10-20",
+   "subscription_to": "2026-10-21",
+   "payment_date": "2026-10-23",
+   "listing_date": "2026-10-30",
+   "offer_price": 2000,
+   "offer_amount": 12000000000,
+   "underwriters": [
+    "한화투자증권(주)"
+   ],
+   "name": "한화플러스제6호스팩",
+   "key": "한화플러스제6호스팩",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "name": "한화플러스스팩6호",
+   "code": "0127E0",
+   "market": "코스닥",
+   "industry": "그 외 기타 금융 지원 서비스업",
+   "ceo": "김동완",
+   "company_class": "중소일반",
+   "address": "서울특별시 영등포구 여의대로 56 (여의도동)",
+   "capital": 641000000,
+   "par_value": 100,
+   "shares_offered": 6000000,
+   "offer_structure": "신주모집 : 6,000,000 주 (100%)",
+   "band_low": 2000,
+   "band_high": 2000,
+   "offer_price": 2000,
+   "offer_amount": 12000000000,
+   "underwriters": [
+    "한화투자증권"
+   ],
+   "bookbuilding_from": "2026-10-14",
+   "bookbuilding_to": "2026-10-15",
+   "subscription_from": "2026-10-20",
+   "subscription_to": "2026-10-21",
+   "payment_date": "2026-10-23",
+   "refund_date": "2026-10-23",
+   "listing_date": "2026-10-30",
+   "subscription_competition": 185.75,
+   "proportional_competition": 372.0,
+   "institutional_competition": 1256.48,
+   "lockup_ratio": 0.0,
+   "allocation": {
+    "institutional": {
+     "shares": 4500000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 1500000,
+     "pct": 25.0
+    }
+   },
+   "key": "한화플러스스팩6호",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2330"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "상단 확정",
+    "pct": 0.0
+   },
+   "has_official": false
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2026-08-26",
+   "bookbuilding_from": "2026-10-12",
+   "bookbuilding_to": "2026-10-13",
+   "subscription_from": "2026-10-15",
+   "subscription_to": "2026-10-16",
+   "payment_date": "2026-10-20",
+   "listing_date": "2026-10-27",
+   "offer_price": 2000,
+   "offer_amount": 13000000000,
+   "underwriters": [
+    "SK증권(주)"
+   ],
+   "name": "에스케이증권제14호기업인수목적",
+   "key": "에스케이증권제14호기업인수목적",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
    "name": "SK증권스팩14호",
    "code": "0205H0",
    "market": "코스닥",
@@ -2125,28 +2208,6 @@
     "pct": 0.0
    },
    "has_official": false
-  },
-  {
-   "market": "코스닥",
-   "filed_date": "2026-08-26",
-   "bookbuilding_from": "2026-10-12",
-   "bookbuilding_to": "2026-10-13",
-   "subscription_from": "2026-10-15",
-   "subscription_to": "2026-10-16",
-   "payment_date": "2026-10-20",
-   "listing_date": "2026-10-27",
-   "offer_price": 2000,
-   "offer_amount": 13000000000,
-   "underwriters": [
-    "SK증권(주)"
-   ],
-   "name": "에스케이증권제14호기업인수목적",
-   "key": "에스케이증권제14호기업인수목적",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
   },
   {
    "name": "디티에스",
@@ -2305,29 +2366,6 @@
    "has_official": true
   },
   {
-   "market": "코스닥",
-   "filed_date": "2026-08-21",
-   "bookbuilding_from": "2026-09-23",
-   "bookbuilding_to": "2026-10-01",
-   "subscription_from": "2026-10-07",
-   "subscription_to": "2026-10-08",
-   "payment_date": "2026-10-13",
-   "listing_date": "2026-10-20",
-   "offer_price": 90500,
-   "offer_amount": 201091000000,
-   "underwriters": [
-    "미래에셋증권 주식회사",
-    "삼성증권(주)"
-   ],
-   "name": "엘리스",
-   "key": "엘리스",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
    "name": "엘리스그룹",
    "code": "0158S0",
    "market": "코스닥",
@@ -2387,6 +2425,29 @@
     "pct": 0.0
    },
    "has_official": false
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2026-08-21",
+   "bookbuilding_from": "2026-09-23",
+   "bookbuilding_to": "2026-10-01",
+   "subscription_from": "2026-10-07",
+   "subscription_to": "2026-10-08",
+   "payment_date": "2026-10-13",
+   "listing_date": "2026-10-20",
+   "offer_price": 90500,
+   "offer_amount": 201091000000,
+   "underwriters": [
+    "미래에셋증권 주식회사",
+    "삼성증권(주)"
+   ],
+   "name": "엘리스",
+   "key": "엘리스",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
   },
   {
    "name": "진코스텍",
@@ -3025,57 +3086,6 @@
    "has_official": true
   },
   {
-   "name": "KB스팩34호",
-   "code": "0209J0",
-   "market": "코스닥",
-   "industry": "금융 지원 서비스업",
-   "ceo": "전성훈",
-   "company_class": "중소일반",
-   "address": "서울특별시 영등포구 여의나루로 50 (여의도동, 한국교직원공제회관)",
-   "capital": 721000000,
-   "par_value": 100,
-   "shares_offered": 7000000,
-   "offer_structure": "신주모집 : 7,000,000 주 (100%)",
-   "band_low": 2000,
-   "band_high": 2000,
-   "offer_price": 2000,
-   "offer_amount": 14000000000,
-   "underwriters": [
-    "KB증권"
-   ],
-   "bookbuilding_from": "2026-09-04",
-   "bookbuilding_to": "2026-09-07",
-   "subscription_from": "2026-09-10",
-   "subscription_to": "2026-09-11",
-   "payment_date": "2026-09-15",
-   "refund_date": "2026-09-15",
-   "listing_date": "2026-09-22",
-   "subscription_competition": 397.33,
-   "proportional_competition": 795.0,
-   "institutional_competition": 1232.51,
-   "lockup_ratio": 0.0,
-   "allocation": {
-    "institutional": {
-     "shares": 5250000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 1750000,
-     "pct": 25.0
-    }
-   },
-   "key": "kb스팩34호",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2313"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": false
-  },
-  {
    "name": "네오사피엔스",
    "code": "0161M0",
    "market": "코스닥",
@@ -3189,28 +3199,6 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2026-08-13",
-   "bookbuilding_from": "2026-09-04",
-   "bookbuilding_to": "2026-09-07",
-   "subscription_from": "2026-09-10",
-   "subscription_to": "2026-09-11",
-   "payment_date": "2026-09-15",
-   "listing_date": "2026-09-22",
-   "offer_price": 2000,
-   "offer_amount": 14000000000,
-   "underwriters": [
-    "KB증권(주)"
-   ],
-   "name": "KB제34호스팩",
-   "key": "kb제34호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
    "filed_date": "2026-08-14",
    "bookbuilding_from": "2026-09-07",
    "bookbuilding_to": "2026-09-08",
@@ -3233,25 +3221,76 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2026-07-29",
-   "bookbuilding_from": "2026-08-24",
-   "bookbuilding_to": "2026-08-25",
-   "subscription_from": "2026-09-01",
-   "subscription_to": "2026-09-02",
-   "payment_date": "2026-09-04",
-   "listing_date": "2026-09-10",
+   "filed_date": "2026-08-13",
+   "bookbuilding_from": "2026-09-04",
+   "bookbuilding_to": "2026-09-07",
+   "subscription_from": "2026-09-10",
+   "subscription_to": "2026-09-11",
+   "payment_date": "2026-09-15",
+   "listing_date": "2026-09-22",
    "offer_price": 2000,
-   "offer_amount": 17000000000,
+   "offer_amount": 14000000000,
    "underwriters": [
-    "엔에이치투자증권(주)"
+    "KB증권(주)"
    ],
-   "name": "엔에이치스팩34호",
-   "key": "엔에이치스팩34호",
+   "name": "KB제34호스팩",
+   "key": "kb제34호스팩",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
    "status": "상장완료",
    "has_official": true
+  },
+  {
+   "name": "KB스팩34호",
+   "code": "0209J0",
+   "market": "코스닥",
+   "industry": "금융 지원 서비스업",
+   "ceo": "전성훈",
+   "company_class": "중소일반",
+   "address": "서울특별시 영등포구 여의나루로 50 (여의도동, 한국교직원공제회관)",
+   "capital": 721000000,
+   "par_value": 100,
+   "shares_offered": 7000000,
+   "offer_structure": "신주모집 : 7,000,000 주 (100%)",
+   "band_low": 2000,
+   "band_high": 2000,
+   "offer_price": 2000,
+   "offer_amount": 14000000000,
+   "underwriters": [
+    "KB증권"
+   ],
+   "bookbuilding_from": "2026-09-04",
+   "bookbuilding_to": "2026-09-07",
+   "subscription_from": "2026-09-10",
+   "subscription_to": "2026-09-11",
+   "payment_date": "2026-09-15",
+   "refund_date": "2026-09-15",
+   "listing_date": "2026-09-22",
+   "subscription_competition": 397.33,
+   "proportional_competition": 795.0,
+   "institutional_competition": 1232.51,
+   "lockup_ratio": 0.0,
+   "allocation": {
+    "institutional": {
+     "shares": 5250000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 1750000,
+     "pct": 25.0
+    }
+   },
+   "key": "kb스팩34호",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2313"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "상단 확정",
+    "pct": 0.0
+   },
+   "has_official": false
   },
   {
    "name": "NH스팩34호",
@@ -3303,6 +3342,28 @@
     "pct": 0.0
    },
    "has_official": false
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2026-07-29",
+   "bookbuilding_from": "2026-08-24",
+   "bookbuilding_to": "2026-08-25",
+   "subscription_from": "2026-09-01",
+   "subscription_to": "2026-09-02",
+   "payment_date": "2026-09-04",
+   "listing_date": "2026-09-10",
+   "offer_price": 2000,
+   "offer_amount": 17000000000,
+   "underwriters": [
+    "엔에이치투자증권(주)"
+   ],
+   "name": "엔에이치스팩34호",
+   "key": "엔에이치스팩34호",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
   },
   {
    "name": "스카이랩스",
@@ -3406,6 +3467,106 @@
    "has_official": true
   },
   {
+   "name": "해치텍",
+   "code": "0155E0",
+   "market": "코스닥",
+   "industry": "비메모리용 및 기타 전자집적회로 제조업",
+   "ceo": "최성민",
+   "company_class": "중소일반",
+   "address": "충청북도 청주시 청원구 오창읍 연구단지로 40 (양청리, 충북테크노파크) 비동 307호",
+   "revenue": 14079000000,
+   "net_income": -8030000000,
+   "capital": 2243000000,
+   "par_value": 500,
+   "shares_offered": 1000000,
+   "offer_structure": "신주모집 : 1,000,000 주 (100%)",
+   "band_low": 23000,
+   "band_high": 28000,
+   "offer_price": 23000,
+   "offer_amount": 23000000000,
+   "underwriters": [
+    "DB증권주식회사"
+   ],
+   "bookbuilding_from": "2026-08-03",
+   "bookbuilding_to": "2026-08-07",
+   "subscription_from": "2026-08-12",
+   "subscription_to": "2026-08-13",
+   "payment_date": "2026-08-18",
+   "refund_date": "2026-08-18",
+   "listing_date": "2026-08-25",
+   "subscription_competition": 25.73,
+   "proportional_competition": 51.0,
+   "institutional_competition": 101.91,
+   "lockup_ratio": 15.08,
+   "lockup_breakdown": {
+    "m6": 0,
+    "m3": 8000,
+    "m1": 0,
+    "d15": 11519000,
+    "total": 11527000
+   },
+   "price_distribution": [
+    {
+     "band": "가격 미제시",
+     "orders": 11,
+     "shares": 5257000,
+     "pct": 6.9
+    },
+    {
+     "band": "28,000원(상단) 초과",
+     "orders": 10,
+     "shares": 2081000,
+     "pct": 2.7
+    },
+    {
+     "band": "28,000원(상단)",
+     "orders": 137,
+     "shares": 36909071,
+     "pct": 48.3
+    },
+    {
+     "band": "23,000원(하단) 초과 ~ 28,000원(상단) 미만",
+     "orders": 1,
+     "shares": 1588,
+     "pct": null
+    },
+    {
+     "band": "23,000(하단)",
+     "orders": 93,
+     "shares": 11184900,
+     "pct": 14.6
+    },
+    {
+     "band": "23,000원(하단) 미만",
+     "orders": 69,
+     "shares": 21002000,
+     "pct": 27.5
+    }
+   ],
+   "allocation": {
+    "institutional": {
+     "shares": 750000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 250000,
+     "pct": 25.0
+    }
+   },
+   "filed_date": "2026-06-26",
+   "key": "해치텍",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2304",
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "하단 확정",
+    "pct": 0.0
+   },
+   "has_official": true
+  },
+  {
    "name": "니어스랩",
    "code": "417030",
    "market": "코스닥",
@@ -3502,106 +3663,6 @@
    "status": "상장완료",
    "band_position": {
     "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": true
-  },
-  {
-   "name": "해치텍",
-   "code": "0155E0",
-   "market": "코스닥",
-   "industry": "비메모리용 및 기타 전자집적회로 제조업",
-   "ceo": "최성민",
-   "company_class": "중소일반",
-   "address": "충청북도 청주시 청원구 오창읍 연구단지로 40 (양청리, 충북테크노파크) 비동 307호",
-   "revenue": 14079000000,
-   "net_income": -8030000000,
-   "capital": 2243000000,
-   "par_value": 500,
-   "shares_offered": 1000000,
-   "offer_structure": "신주모집 : 1,000,000 주 (100%)",
-   "band_low": 23000,
-   "band_high": 28000,
-   "offer_price": 23000,
-   "offer_amount": 23000000000,
-   "underwriters": [
-    "DB증권주식회사"
-   ],
-   "bookbuilding_from": "2026-08-03",
-   "bookbuilding_to": "2026-08-07",
-   "subscription_from": "2026-08-12",
-   "subscription_to": "2026-08-13",
-   "payment_date": "2026-08-18",
-   "refund_date": "2026-08-18",
-   "listing_date": "2026-08-25",
-   "subscription_competition": 25.73,
-   "proportional_competition": 51.0,
-   "institutional_competition": 101.91,
-   "lockup_ratio": 15.08,
-   "lockup_breakdown": {
-    "m6": 0,
-    "m3": 8000,
-    "m1": 0,
-    "d15": 11519000,
-    "total": 11527000
-   },
-   "price_distribution": [
-    {
-     "band": "가격 미제시",
-     "orders": 11,
-     "shares": 5257000,
-     "pct": 6.9
-    },
-    {
-     "band": "28,000원(상단) 초과",
-     "orders": 10,
-     "shares": 2081000,
-     "pct": 2.7
-    },
-    {
-     "band": "28,000원(상단)",
-     "orders": 137,
-     "shares": 36909071,
-     "pct": 48.3
-    },
-    {
-     "band": "23,000원(하단) 초과 ~ 28,000원(상단) 미만",
-     "orders": 1,
-     "shares": 1588,
-     "pct": null
-    },
-    {
-     "band": "23,000(하단)",
-     "orders": 93,
-     "shares": 11184900,
-     "pct": 14.6
-    },
-    {
-     "band": "23,000원(하단) 미만",
-     "orders": 69,
-     "shares": 21002000,
-     "pct": 27.5
-    }
-   ],
-   "allocation": {
-    "institutional": {
-     "shares": 750000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 250000,
-     "pct": 25.0
-    }
-   },
-   "filed_date": "2026-06-26",
-   "key": "해치텍",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2304",
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "하단 확정",
     "pct": 0.0
    },
    "has_official": true
@@ -4221,28 +4282,6 @@
    "has_official": true
   },
   {
-   "market": "코스닥",
-   "filed_date": "2026-05-26",
-   "bookbuilding_from": "2026-06-17",
-   "bookbuilding_to": "2026-06-18",
-   "subscription_from": "2026-06-22",
-   "subscription_to": "2026-06-23",
-   "payment_date": "2026-06-25",
-   "listing_date": "2026-06-30",
-   "offer_price": 2000,
-   "offer_amount": 11000000000,
-   "underwriters": [
-    "한국투자증권(주)"
-   ],
-   "name": "한국제16호스팩",
-   "key": "한국제16호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
    "name": "한국스팩16호",
    "code": "0164H0",
    "market": "코스닥",
@@ -4294,74 +4333,25 @@
    "has_official": false
   },
   {
-   "name": "스트라드비젼",
-   "code": "475040",
    "market": "코스닥",
-   "industry": "응용소프트웨어 개발 및 공급업",
-   "ceo": "김준환",
-   "company_class": "중소일반",
-   "address": "경북 포항시 남구 지곡로 394, 제5벤처동 304호, 305호, 306호, 307호, 308호(지곡동,포항테크노파크)",
-   "homepage": "www.stradvision.com",
-   "revenue": 11539000000,
-   "net_income": -65529000000,
-   "capital": 5325000000,
-   "par_value": 100,
-   "shares_offered": 7000000,
-   "offer_structure": "신주모집 : 7,000,000 주 (100%)",
-   "band_low": 12000,
-   "band_high": 14000,
-   "offer_price": 12000,
-   "offer_amount": 84000000000,
-   "underwriters": [
-    "KB증권(주)"
-   ],
-   "bookbuilding_from": "2026-06-09",
-   "bookbuilding_to": "2026-06-15",
-   "subscription_from": "2026-06-18",
-   "subscription_to": "2026-06-19",
-   "payment_date": "2026-06-23",
-   "refund_date": "2026-06-23",
+   "filed_date": "2026-05-26",
+   "bookbuilding_from": "2026-06-17",
+   "bookbuilding_to": "2026-06-18",
+   "subscription_from": "2026-06-22",
+   "subscription_to": "2026-06-23",
+   "payment_date": "2026-06-25",
    "listing_date": "2026-06-30",
-   "subscription_competition": 45.83,
-   "proportional_competition": 92.0,
-   "institutional_competition": 381.3,
-   "lockup_ratio": 2.77,
-   "lockup_breakdown": {
-    "m6": 38712000,
-    "m3": 3431000,
-    "m1": 2271000,
-    "d15": 11057000,
-    "total": 55471000
-   },
-   "price_distribution": [
-    {
-     "band": "가격 미제시",
-     "orders": 14,
-     "shares": 26869000,
-     "pct": 1.3
-    }
+   "offer_price": 2000,
+   "offer_amount": 11000000000,
+   "underwriters": [
+    "한국투자증권(주)"
    ],
-   "allocation": {
-    "institutional": {
-     "shares": 5250000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 1750000,
-     "pct": 25.0
-    }
-   },
-   "filed_date": "2026-06-11",
-   "key": "스트라드비젼",
+   "name": "한국제16호스팩",
+   "key": "한국제16호스팩",
    "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2289",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
    "status": "상장완료",
-   "band_position": {
-    "label": "하단 확정",
-    "pct": 0.0
-   },
    "has_official": true
   },
   {
@@ -4464,25 +4454,74 @@
    "has_official": true
   },
   {
+   "name": "스트라드비젼",
+   "code": "475040",
    "market": "코스닥",
-   "filed_date": "2026-05-07",
-   "bookbuilding_from": "2026-06-01",
-   "bookbuilding_to": "2026-06-02",
-   "subscription_from": "2026-06-09",
-   "subscription_to": "2026-06-10",
-   "payment_date": "2026-06-12",
-   "listing_date": "2026-06-19",
-   "offer_price": 2000,
-   "offer_amount": 14000000000,
+   "industry": "응용소프트웨어 개발 및 공급업",
+   "ceo": "김준환",
+   "company_class": "중소일반",
+   "address": "경북 포항시 남구 지곡로 394, 제5벤처동 304호, 305호, 306호, 307호, 308호(지곡동,포항테크노파크)",
+   "homepage": "www.stradvision.com",
+   "revenue": 11539000000,
+   "net_income": -65529000000,
+   "capital": 5325000000,
+   "par_value": 100,
+   "shares_offered": 7000000,
+   "offer_structure": "신주모집 : 7,000,000 주 (100%)",
+   "band_low": 12000,
+   "band_high": 14000,
+   "offer_price": 12000,
+   "offer_amount": 84000000000,
    "underwriters": [
-    "메리츠증권 주식회사"
+    "KB증권(주)"
    ],
-   "name": "메리츠제2호스팩",
-   "key": "메리츠제2호스팩",
+   "bookbuilding_from": "2026-06-09",
+   "bookbuilding_to": "2026-06-15",
+   "subscription_from": "2026-06-18",
+   "subscription_to": "2026-06-19",
+   "payment_date": "2026-06-23",
+   "refund_date": "2026-06-23",
+   "listing_date": "2026-06-30",
+   "subscription_competition": 45.83,
+   "proportional_competition": 92.0,
+   "institutional_competition": 381.3,
+   "lockup_ratio": 2.77,
+   "lockup_breakdown": {
+    "m6": 38712000,
+    "m3": 3431000,
+    "m1": 2271000,
+    "d15": 11057000,
+    "total": 55471000
+   },
+   "price_distribution": [
+    {
+     "band": "가격 미제시",
+     "orders": 14,
+     "shares": 26869000,
+     "pct": 1.3
+    }
+   ],
+   "allocation": {
+    "institutional": {
+     "shares": 5250000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 1750000,
+     "pct": 25.0
+    }
+   },
+   "filed_date": "2026-06-11",
+   "key": "스트라드비젼",
    "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2289",
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
    "status": "상장완료",
+   "band_position": {
+    "label": "하단 확정",
+    "pct": 0.0
+   },
    "has_official": true
   },
   {
@@ -4534,6 +4573,28 @@
     "pct": 0.0
    },
    "has_official": false
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2026-05-07",
+   "bookbuilding_from": "2026-06-01",
+   "bookbuilding_to": "2026-06-02",
+   "subscription_from": "2026-06-09",
+   "subscription_to": "2026-06-10",
+   "payment_date": "2026-06-12",
+   "listing_date": "2026-06-19",
+   "offer_price": 2000,
+   "offer_amount": 14000000000,
+   "underwriters": [
+    "메리츠증권 주식회사"
+   ],
+   "name": "메리츠제2호스팩",
+   "key": "메리츠제2호스팩",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
   },
   {
    "name": "피스피스스튜디오",
@@ -4599,28 +4660,6 @@
    "has_official": true
   },
   {
-   "market": "코스닥",
-   "filed_date": "2026-04-08",
-   "bookbuilding_from": "2026-05-18",
-   "bookbuilding_to": "2026-05-19",
-   "subscription_from": "2026-05-22",
-   "subscription_to": "2026-05-26",
-   "payment_date": "2026-05-28",
-   "listing_date": "2026-06-05",
-   "offer_price": 2000,
-   "offer_amount": 13000000000,
-   "underwriters": [
-    "대신증권(주)"
-   ],
-   "name": "대신밸런스제20호스팩",
-   "key": "대신밸런스제20호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
    "name": "대신밸런스스팩20호",
    "code": "0134X0",
    "market": "코스닥",
@@ -4670,6 +4709,28 @@
     "pct": 0.0
    },
    "has_official": false
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2026-04-08",
+   "bookbuilding_from": "2026-05-18",
+   "bookbuilding_to": "2026-05-19",
+   "subscription_from": "2026-05-22",
+   "subscription_to": "2026-05-26",
+   "payment_date": "2026-05-28",
+   "listing_date": "2026-06-05",
+   "offer_price": 2000,
+   "offer_amount": 13000000000,
+   "underwriters": [
+    "대신증권(주)"
+   ],
+   "name": "대신밸런스제20호스팩",
+   "key": "대신밸런스제20호스팩",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
   },
   {
    "name": "마키나락스",
@@ -4896,57 +4957,6 @@
    "has_official": true
   },
   {
-   "name": "신한스팩18호",
-   "code": "0129K0",
-   "market": "코스닥",
-   "industry": "금융업",
-   "ceo": "변창섭",
-   "company_class": "중소일반",
-   "address": "서울특별시 영등포구 의사당대로 96 (여의도동, 티피타워)",
-   "capital": 562000000,
-   "par_value": 100,
-   "shares_offered": 5000000,
-   "offer_structure": "신주모집 : 5,000,000 주 (100%)",
-   "band_low": 2000,
-   "band_high": 2000,
-   "offer_price": 2000,
-   "offer_amount": 10000000000,
-   "underwriters": [
-    "신한투자증권"
-   ],
-   "bookbuilding_from": "2026-04-14",
-   "bookbuilding_to": "2026-04-15",
-   "subscription_from": "2026-04-20",
-   "subscription_to": "2026-04-21",
-   "payment_date": "2026-04-23",
-   "refund_date": "2026-04-23",
-   "listing_date": "2026-04-30",
-   "subscription_competition": 1601.36,
-   "proportional_competition": 3203.0,
-   "institutional_competition": 1388.6,
-   "lockup_ratio": 0.0,
-   "allocation": {
-    "institutional": {
-     "shares": 3750000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 1250000,
-     "pct": 25.0
-    }
-   },
-   "key": "신한스팩18호",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2284"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": false
-  },
-  {
    "name": "채비",
    "code": "0011T0",
    "market": "코스닥",
@@ -5051,6 +5061,57 @@
    "has_official": true
   },
   {
+   "name": "신한스팩18호",
+   "code": "0129K0",
+   "market": "코스닥",
+   "industry": "금융업",
+   "ceo": "변창섭",
+   "company_class": "중소일반",
+   "address": "서울특별시 영등포구 의사당대로 96 (여의도동, 티피타워)",
+   "capital": 562000000,
+   "par_value": 100,
+   "shares_offered": 5000000,
+   "offer_structure": "신주모집 : 5,000,000 주 (100%)",
+   "band_low": 2000,
+   "band_high": 2000,
+   "offer_price": 2000,
+   "offer_amount": 10000000000,
+   "underwriters": [
+    "신한투자증권"
+   ],
+   "bookbuilding_from": "2026-04-14",
+   "bookbuilding_to": "2026-04-15",
+   "subscription_from": "2026-04-20",
+   "subscription_to": "2026-04-21",
+   "payment_date": "2026-04-23",
+   "refund_date": "2026-04-23",
+   "listing_date": "2026-04-30",
+   "subscription_competition": 1601.36,
+   "proportional_competition": 3203.0,
+   "institutional_competition": 1388.6,
+   "lockup_ratio": 0.0,
+   "allocation": {
+    "institutional": {
+     "shares": 3750000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 1250000,
+     "pct": 25.0
+    }
+   },
+   "key": "신한스팩18호",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2284"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "상단 확정",
+    "pct": 0.0
+   },
+   "has_official": false
+  },
+  {
    "market": "코스닥",
    "filed_date": "2026-03-23",
    "bookbuilding_from": "2026-04-14",
@@ -5066,28 +5127,6 @@
    ],
    "name": "신한제18호스팩",
    "key": "신한제18호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
-   "filed_date": "2026-03-10",
-   "bookbuilding_from": "2026-04-09",
-   "bookbuilding_to": "2026-04-10",
-   "subscription_from": "2026-04-14",
-   "subscription_to": "2026-04-15",
-   "payment_date": "2026-04-17",
-   "listing_date": "2026-04-23",
-   "offer_price": 2000,
-   "offer_amount": 12000000000,
-   "underwriters": [
-    "키움증권(주)"
-   ],
-   "name": "키움히어로제2호스팩",
-   "key": "키움히어로제2호스팩",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -5146,55 +5185,26 @@
    "has_official": false
   },
   {
-   "name": "교보스팩20호",
-   "code": "0132G0",
    "market": "코스닥",
-   "industry": "기타 금융업",
-   "ceo": "김서호",
-   "company_class": "중소일반",
-   "address": "서울특별시 영등포구 의사당대로 97, 17층",
-   "capital": 597000000,
-   "par_value": 100,
-   "shares_offered": 5400000,
-   "offer_structure": "신주모집 : 5,400,000 주 (100%)",
-   "band_low": 2000,
-   "band_high": 2000,
+   "filed_date": "2026-03-10",
+   "bookbuilding_from": "2026-04-09",
+   "bookbuilding_to": "2026-04-10",
+   "subscription_from": "2026-04-14",
+   "subscription_to": "2026-04-15",
+   "payment_date": "2026-04-17",
+   "listing_date": "2026-04-23",
    "offer_price": 2000,
-   "offer_amount": 10800000000,
+   "offer_amount": 12000000000,
    "underwriters": [
-    "교보증권"
+    "키움증권(주)"
    ],
-   "bookbuilding_from": "2026-03-16",
-   "bookbuilding_to": "2026-03-17",
-   "subscription_from": "2026-03-23",
-   "subscription_to": "2026-03-24",
-   "payment_date": "2026-03-26",
-   "refund_date": "2026-03-26",
-   "listing_date": "2026-04-02",
-   "subscription_competition": 747.0,
-   "proportional_competition": 1494.0,
-   "institutional_competition": 1196.99,
-   "lockup_ratio": 0.0,
-   "allocation": {
-    "institutional": {
-     "shares": 4050000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 1350000,
-     "pct": 25.0
-    }
-   },
-   "key": "교보스팩20호",
+   "name": "키움히어로제2호스팩",
+   "key": "키움히어로제2호스팩",
    "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2279"
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
    "status": "상장완료",
-   "band_position": {
-    "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": false
+   "has_official": true
   },
   {
    "market": "코스닥",
@@ -5284,6 +5294,57 @@
     "pct": 0.0
    },
    "has_official": true
+  },
+  {
+   "name": "교보스팩20호",
+   "code": "0132G0",
+   "market": "코스닥",
+   "industry": "기타 금융업",
+   "ceo": "김서호",
+   "company_class": "중소일반",
+   "address": "서울특별시 영등포구 의사당대로 97, 17층",
+   "capital": 597000000,
+   "par_value": 100,
+   "shares_offered": 5400000,
+   "offer_structure": "신주모집 : 5,400,000 주 (100%)",
+   "band_low": 2000,
+   "band_high": 2000,
+   "offer_price": 2000,
+   "offer_amount": 10800000000,
+   "underwriters": [
+    "교보증권"
+   ],
+   "bookbuilding_from": "2026-03-16",
+   "bookbuilding_to": "2026-03-17",
+   "subscription_from": "2026-03-23",
+   "subscription_to": "2026-03-24",
+   "payment_date": "2026-03-26",
+   "refund_date": "2026-03-26",
+   "listing_date": "2026-04-02",
+   "subscription_competition": 747.0,
+   "proportional_competition": 1494.0,
+   "institutional_competition": 1196.99,
+   "lockup_ratio": 0.0,
+   "allocation": {
+    "institutional": {
+     "shares": 4050000,
+     "pct": 75.0
+    },
+    "retail": {
+     "shares": 1350000,
+     "pct": 25.0
+    }
+   },
+   "key": "교보스팩20호",
+   "sources": {
+    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2279"
+   },
+   "status": "상장완료",
+   "band_position": {
+    "label": "상단 확정",
+    "pct": 0.0
+   },
+   "has_official": false
   },
   {
    "name": "신한스팩17호",
@@ -6449,91 +6510,6 @@
    "has_official": true
   },
   {
-   "market": "코스닥",
-   "filed_date": "2025-11-07",
-   "bookbuilding_from": "2025-12-03",
-   "bookbuilding_to": "2025-12-04",
-   "subscription_from": "2025-12-11",
-   "subscription_to": "2025-12-12",
-   "payment_date": "2025-12-16",
-   "listing_date": "2025-12-22",
-   "offer_price": 2000,
-   "offer_amount": 14000000000,
-   "underwriters": [
-    "하나증권주식회사"
-   ],
-   "name": "하나36호스팩",
-   "key": "하나36호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "name": "삼진식품",
-   "code": "0013V0",
-   "market": "코스닥",
-   "industry": "수산동물 훈제, 조리 및 유사 조제식품 제조업",
-   "ceo": "박용준",
-   "company_class": "중소일반",
-   "address": "부산광역시 영도구 태종로99번길 36 (봉래동2가)",
-   "homepage": "www.samjinfood.com",
-   "revenue": 96400000000,
-   "net_income": 1019000000,
-   "capital": 4959000000,
-   "par_value": 500,
-   "shares_offered": 2000000,
-   "offer_structure": "신주모집 : 2,000,000 주 (100%)",
-   "band_low": 6700,
-   "band_high": 7600,
-   "offer_price": 7600,
-   "offer_amount": 15200000000,
-   "underwriters": [
-    "대신증권(주)"
-   ],
-   "bookbuilding_from": "2025-12-03",
-   "bookbuilding_to": "2025-12-09",
-   "subscription_from": "2025-12-11",
-   "subscription_to": "2025-12-12",
-   "payment_date": "2025-12-16",
-   "refund_date": "2025-12-16",
-   "listing_date": "2025-12-22",
-   "subscription_competition": 3224.76,
-   "proportional_competition": 6450.0,
-   "institutional_competition": 1303.87,
-   "lockup_ratio": 41.05,
-   "lockup_breakdown": {
-    "m6": 17291000,
-    "m3": 82715000,
-    "m1": 87675000,
-    "d15": 615210000,
-    "total": 802891000
-   },
-   "allocation": {
-    "institutional": {
-     "shares": 1500000,
-     "pct": 75.0
-    },
-    "retail": {
-     "shares": 500000,
-     "pct": 25.0
-    }
-   },
-   "filed_date": "2025-11-03",
-   "key": "삼진식품",
-   "sources": {
-    "ipo38": "http://www.38.co.kr/html/fund/?o=v&no=2252",
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "band_position": {
-    "label": "상단 확정",
-    "pct": 0.0
-   },
-   "has_official": true
-  },
-  {
    "name": "하나스팩36호",
    "code": "0101C0",
    "market": "코스닥",
@@ -6586,6 +6562,50 @@
   },
   {
    "market": "코스닥",
+   "filed_date": "2025-11-07",
+   "bookbuilding_from": "2025-12-03",
+   "bookbuilding_to": "2025-12-04",
+   "subscription_from": "2025-12-11",
+   "subscription_to": "2025-12-12",
+   "payment_date": "2025-12-16",
+   "listing_date": "2025-12-22",
+   "offer_price": 2000,
+   "offer_amount": 14000000000,
+   "underwriters": [
+    "하나증권주식회사"
+   ],
+   "name": "하나36호스팩",
+   "key": "하나36호스팩",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-11-03",
+   "bookbuilding_from": "2025-12-03",
+   "bookbuilding_to": "2025-12-09",
+   "subscription_from": "2025-12-11",
+   "subscription_to": "2025-12-12",
+   "payment_date": "2025-12-16",
+   "listing_date": "2025-12-22",
+   "offer_price": 7600,
+   "offer_amount": 15200000000,
+   "underwriters": [
+    "대신증권(주)"
+   ],
+   "name": "삼진식품",
+   "key": "삼진식품",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
    "filed_date": "2025-11-11",
    "bookbuilding_from": "2025-12-04",
    "bookbuilding_to": "2025-12-05",
@@ -6600,6 +6620,28 @@
    ],
    "name": "미래에셋비전스팩11호",
    "key": "미래에셋비전스팩11호",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-11-13",
+   "bookbuilding_from": "2025-12-04",
+   "bookbuilding_to": "2025-12-05",
+   "subscription_from": "2025-12-09",
+   "subscription_to": "2025-12-10",
+   "payment_date": "2025-12-12",
+   "listing_date": "2025-12-19",
+   "offer_price": 2000,
+   "offer_amount": 10000000000,
+   "underwriters": [
+    "IBK투자증권(주)"
+   ],
+   "name": "IBKS제25호스팩",
+   "key": "ibks제25호스팩",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -6623,28 +6665,6 @@
    ],
    "name": "알지노믹스",
    "key": "알지노믹스",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
-   "filed_date": "2025-11-13",
-   "bookbuilding_from": "2025-12-04",
-   "bookbuilding_to": "2025-12-05",
-   "subscription_from": "2025-12-09",
-   "subscription_to": "2025-12-10",
-   "payment_date": "2025-12-12",
-   "listing_date": "2025-12-19",
-   "offer_price": 2000,
-   "offer_amount": 10000000000,
-   "underwriters": [
-    "IBK투자증권(주)"
-   ],
-   "name": "IBKS제25호스팩",
-   "key": "ibks제25호스팩",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -6741,20 +6761,20 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-11-04",
-   "bookbuilding_from": "2025-11-26",
+   "filed_date": "2025-10-14",
+   "bookbuilding_from": "2025-11-21",
    "bookbuilding_to": "2025-11-27",
    "subscription_from": "2025-12-02",
    "subscription_to": "2025-12-03",
    "payment_date": "2025-12-05",
-   "listing_date": "2025-12-12",
-   "offer_price": 2000,
-   "offer_amount": 10000000000,
+   "listing_date": "2025-12-11",
+   "offer_price": 15000,
+   "offer_amount": 22500000000,
    "underwriters": [
-    "교보증권(주)"
+    "엔에이치투자증권(주)"
    ],
-   "name": "교보19호스팩",
-   "key": "교보19호스팩",
+   "name": "이지스",
+   "key": "이지스",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -6785,6 +6805,28 @@
   },
   {
    "market": "코스닥",
+   "filed_date": "2025-11-04",
+   "bookbuilding_from": "2025-11-26",
+   "bookbuilding_to": "2025-11-27",
+   "subscription_from": "2025-12-02",
+   "subscription_to": "2025-12-03",
+   "payment_date": "2025-12-05",
+   "listing_date": "2025-12-12",
+   "offer_price": 2000,
+   "offer_amount": 10000000000,
+   "underwriters": [
+    "교보증권(주)"
+   ],
+   "name": "교보19호스팩",
+   "key": "교보19호스팩",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
    "filed_date": "2025-10-02",
    "bookbuilding_from": "2025-11-24",
    "bookbuilding_to": "2025-11-28",
@@ -6799,28 +6841,6 @@
    ],
    "name": "쿼드메디슨",
    "key": "쿼드메디슨",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
-   "filed_date": "2025-10-14",
-   "bookbuilding_from": "2025-11-21",
-   "bookbuilding_to": "2025-11-27",
-   "subscription_from": "2025-12-02",
-   "subscription_to": "2025-12-03",
-   "payment_date": "2025-12-05",
-   "listing_date": "2025-12-11",
-   "offer_price": 15000,
-   "offer_amount": 22500000000,
-   "underwriters": [
-    "엔에이치투자증권(주)"
-   ],
-   "name": "이지스",
-   "key": "이지스",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -6896,28 +6916,6 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-09-29",
-   "bookbuilding_from": "2025-11-12",
-   "bookbuilding_to": "2025-11-18",
-   "subscription_from": "2025-11-21",
-   "subscription_to": "2025-11-24",
-   "payment_date": "2025-11-26",
-   "listing_date": "2025-12-04",
-   "offer_price": 11000,
-   "offer_amount": 70730000000,
-   "underwriters": [
-    "미래에셋증권 주식회사"
-   ],
-   "name": "에임드바이오",
-   "key": "에임드바이오",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
    "filed_date": "2025-10-14",
    "bookbuilding_from": "2025-11-13",
    "bookbuilding_to": "2025-11-19",
@@ -6940,20 +6938,20 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-10-22",
-   "bookbuilding_from": "2025-11-13",
-   "bookbuilding_to": "2025-11-14",
-   "subscription_from": "2025-11-19",
-   "subscription_to": "2025-11-20",
-   "payment_date": "2025-11-24",
-   "listing_date": "2025-12-01",
-   "offer_price": 2000,
-   "offer_amount": 10000000000,
+   "filed_date": "2025-09-29",
+   "bookbuilding_from": "2025-11-12",
+   "bookbuilding_to": "2025-11-18",
+   "subscription_from": "2025-11-21",
+   "subscription_to": "2025-11-24",
+   "payment_date": "2025-11-26",
+   "listing_date": "2025-12-04",
+   "offer_price": 11000,
+   "offer_amount": 70730000000,
    "underwriters": [
     "미래에셋증권 주식회사"
    ],
-   "name": "미래에셋비전스팩9호",
-   "key": "미래에셋비전스팩9호",
+   "name": "에임드바이오",
+   "key": "에임드바이오",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -6976,6 +6974,28 @@
    ],
    "name": "삼성스팩12호",
    "key": "삼성스팩12호",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-10-22",
+   "bookbuilding_from": "2025-11-13",
+   "bookbuilding_to": "2025-11-14",
+   "subscription_from": "2025-11-19",
+   "subscription_to": "2025-11-20",
+   "payment_date": "2025-11-24",
+   "listing_date": "2025-12-01",
+   "offer_price": 2000,
+   "offer_amount": 10000000000,
+   "underwriters": [
+    "미래에셋증권 주식회사"
+   ],
+   "name": "미래에셋비전스팩9호",
+   "key": "미래에셋비전스팩9호",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -7338,28 +7358,6 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-06-30",
-   "bookbuilding_from": "2025-08-04",
-   "bookbuilding_to": "2025-08-05",
-   "subscription_from": "2025-08-11",
-   "subscription_to": "2025-08-12",
-   "payment_date": "2025-08-14",
-   "listing_date": "2025-08-21",
-   "offer_price": 2000,
-   "offer_amount": 14000000000,
-   "underwriters": [
-    "삼성증권(주)"
-   ],
-   "name": "삼성스팩10호",
-   "key": "삼성스팩10호",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
    "filed_date": "2025-06-24",
    "bookbuilding_from": "2025-07-31",
    "bookbuilding_to": "2025-08-06",
@@ -7397,6 +7395,28 @@
    ],
    "name": "한라캐스트",
    "key": "한라캐스트",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-06-30",
+   "bookbuilding_from": "2025-08-04",
+   "bookbuilding_to": "2025-08-05",
+   "subscription_from": "2025-08-11",
+   "subscription_to": "2025-08-12",
+   "payment_date": "2025-08-14",
+   "listing_date": "2025-08-21",
+   "offer_price": 2000,
+   "offer_amount": 14000000000,
+   "underwriters": [
+    "삼성증권(주)"
+   ],
+   "name": "삼성스팩10호",
+   "key": "삼성스팩10호",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -8159,28 +8179,6 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-02-14",
-   "bookbuilding_from": "2025-03-17",
-   "bookbuilding_to": "2025-03-21",
-   "subscription_from": "2025-03-25",
-   "subscription_to": "2025-03-26",
-   "payment_date": "2025-03-28",
-   "listing_date": "2025-04-04",
-   "offer_price": 11200,
-   "offer_amount": 14560000000,
-   "underwriters": [
-    "IBK투자증권(주)"
-   ],
-   "name": "한국피아이엠",
-   "key": "한국피아이엠",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
    "filed_date": "2025-02-07",
    "bookbuilding_from": "2025-03-13",
    "bookbuilding_to": "2025-03-19",
@@ -8195,6 +8193,28 @@
    ],
    "name": "에이유브랜즈",
    "key": "에이유브랜즈",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-02-14",
+   "bookbuilding_from": "2025-03-17",
+   "bookbuilding_to": "2025-03-21",
+   "subscription_from": "2025-03-25",
+   "subscription_to": "2025-03-26",
+   "payment_date": "2025-03-28",
+   "listing_date": "2025-04-04",
+   "offer_price": 11200,
+   "offer_amount": 14560000000,
+   "underwriters": [
+    "IBK투자증권(주)"
+   ],
+   "name": "한국피아이엠",
+   "key": "한국피아이엠",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
@@ -8248,28 +8268,6 @@
   },
   {
    "market": "코스닥",
-   "filed_date": "2025-02-07",
-   "bookbuilding_from": "2025-03-05",
-   "bookbuilding_to": "2025-03-06",
-   "subscription_from": "2025-03-11",
-   "subscription_to": "2025-03-12",
-   "payment_date": "2025-03-14",
-   "listing_date": "2025-03-20",
-   "offer_price": 2000,
-   "offer_amount": 9500000000,
-   "underwriters": [
-    "한화투자증권(주)"
-   ],
-   "name": "한화플러스제5호스팩",
-   "key": "한화플러스제5호스팩",
-   "sources": {
-    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
-   },
-   "status": "상장완료",
-   "has_official": true
-  },
-  {
-   "market": "코스닥",
    "filed_date": "2025-01-17",
    "bookbuilding_from": "2025-02-27",
    "bookbuilding_to": "2025-03-06",
@@ -8284,6 +8282,28 @@
    ],
    "name": "심플랫폼",
    "key": "심플랫폼",
+   "sources": {
+    "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
+   },
+   "status": "상장완료",
+   "has_official": true
+  },
+  {
+   "market": "코스닥",
+   "filed_date": "2025-02-07",
+   "bookbuilding_from": "2025-03-05",
+   "bookbuilding_to": "2025-03-06",
+   "subscription_from": "2025-03-11",
+   "subscription_to": "2025-03-12",
+   "payment_date": "2025-03-14",
+   "listing_date": "2025-03-20",
+   "offer_price": 2000,
+   "offer_amount": 9500000000,
+   "underwriters": [
+    "한화투자증권(주)"
+   ],
+   "name": "한화플러스제5호스팩",
+   "key": "한화플러스제5호스팩",
    "sources": {
     "kind": "https://kind.krx.co.kr/listinvstg/pubofrprogcom.do?method=searchPubofrProgComMain"
    },
